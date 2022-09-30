@@ -1,4 +1,3 @@
-
 #include <iostream>
 
 using namespace std;
@@ -21,7 +20,7 @@ int main()
     cout<<"\t Type 0 to exit\n\n";
     cin>>Option;
     
-    cout<<"============================================================\n\n";
+    cout<<"============================================================\n\n"; 
     
     if (Option==1)
     {
@@ -53,8 +52,6 @@ int main()
         cout<<"Sorry but the option you selected is not available\n";
         cout<<"Enter the option listed on the menu\n";
     }
-    
-    cout<<"\nThank you for using this converter!";
      
     return 0;
 }
@@ -83,6 +80,7 @@ double mile_menu() //convert mile to kilometres
     
     else if (YesNo=='N')
     {
+        cout<<"\nThank you for using this converter!";
         void exit(int);
     }
     
@@ -113,6 +111,7 @@ double kilometre_menu() //convert kilometre to metres
     
     else if (YesNo=='N')
     {
+        cout<<"\nThank you for using this converter!";
         void exit(int);
     }
     
@@ -143,6 +142,7 @@ double metre_menu() //metre to centimetres
     
     else if (YesNo=='N')
     {
+        cout<<"\nThank you for using this converter!";
         void exit(int);
     }
     
@@ -173,9 +173,9 @@ double inch_menu() //inch to centimetres
     
     else if (YesNo=='N')
     {
+        cout<<"\nThank you for using this converter!";
         void exit(int);
     }
    
     return 0;
 }
-
